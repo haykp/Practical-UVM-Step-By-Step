@@ -1,6 +1,9 @@
 `include "wb_master_if.sv"
 `include "wb_slave_if.sv"
-
+// The dut consits of 2 ports, master and slave. DUT role is connect master port to slave port
+// So all input M ports are conected to output S ports. And all input S ports are connected to output M ports
+// And DUT I/O places are mixed. IF I- output, if O-input
+// All the connection is done using interfaces
 module dut(wb_master_if mast_if, wb_slave_if slave_if);
 
  assign slave_if.CYC_I = mast_if.CYC_O;

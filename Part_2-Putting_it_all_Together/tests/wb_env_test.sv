@@ -3,15 +3,13 @@
 typedef class wb_env_env;
 
 class wb_env_test extends uvm_test;
+`uvm_component_utils(wb_env_test)
+
 bit test_pass = 1;
 wb_config master_config;
 wb_config slave_config;
 int slave_adr_max ;
 int slave_adr_min;
-
-
-
-  `uvm_component_utils(wb_env_test)
 
   wb_env_env env;
 
@@ -33,6 +31,7 @@ int slave_adr_min;
 // Set in Config DB
       uvm_config_db #(wb_config)::set(null,"uvm_test_top.env.master_agent","mstr_agent_cfg",master_config);
       uvm_config_db #(wb_config)::set(null,"uvm_test_top.env.slave_agent","mstr_agent_cfg",slave_config);
+
     env = wb_env_env::type_id::create("env", this);
 
     uvm_config_db #(uvm_object_wrapper)::set(this, "env.master_agent.mast_sqr.main_phase", "default_sequence", sequence_1::get_type()); 

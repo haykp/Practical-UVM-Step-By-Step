@@ -1,3 +1,7 @@
+
+// The dut consits of 2 ports, master and slave. DUT role is connect master port to slave port
+// So all input M ports are conected to output S ports. And all input S ports are connected to output M ports
+// And DUT I/O places are mixed. IF I- output, if O-input
 module dut(
 input clk,
 input	MCYC_I,
