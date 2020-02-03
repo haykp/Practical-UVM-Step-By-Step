@@ -28,11 +28,12 @@ function void wb_env_env::build_phase(uvm_phase phase);
 	super.build_phase(phase);
 	master_agent = wb_master_agent::type_id::create("master_agent",this); 
 	slave_agent = wb_slave_agent::type_id::create("slave_agent",this);
- 
-	cov = wb_env_cov::type_id::create("cov",this); //Instantiating the coverage class
 
+//coverage class 
+	cov = wb_env_cov::type_id::create("cov",this); //Instantiating the coverage class
 	mon2cov  = wb_master_mon_2cov_connect::type_id::create("mon2cov", this);
 	mon2cov.cov = cov;
+//scoreboard	
 	sb = wb_scoreboard::type_id::create("sb",this);
 
 endfunction: build_phase

@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:/questasim64_10.2c/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vdut
+Z1 !s110 1580739166
+!i10b 1
+Z2 !s100 ^nDZicG_YLhdiVWP<NY?^0
+Z3 I2TKeC^kS0kAB1hSjGDGY<2
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/QuestaProj
+Z6 w1580610469
+Z7 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v
+Z8 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v
+L0 5
+Z9 OL;L;10.2c;57
+r1
+!s85 0
+31
+!s108 1580739166.937000
+!s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v|
+!i111 0
+Z11 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Ywb_master_if
+Z12 DXx6 sv_std 3 std 0 22 `a<MJET1=lN@jzbA7kHm;1
+Z13 ISB5M8SHLSdHHRmbb8^E2f2
+R4
+S1
+R5
+Z14 w1580610208
+Z15 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv
+Z16 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv
+L0 8
+R9
+r1
+31
+Z17 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z18 !s110 1580738333
+Z19 !s100 cg7dkkG;JjI@2IXc_[JcE0
+Z20 !s105 wb_master_if_sv_unit
+Z21 !s108 1580738333.508000
+Z22 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|
+Z23 !s90 -reportprogress|300|-work|work|-vopt|-sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|
+!i10b 1
+!s85 0
+!i111 0
+Ywb_slave_if
+R12
+R18
+Z24 I7kP5R<mS7HnN1lh=zaT_L3
+R4
+S1
+R5
+R14
+Z25 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv
+Z26 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv
+L0 8
+R9
+r1
+31
+R17
+Z27 !s100 go9@@zM=fML0iOTh753?01
+Z28 !s105 wb_slave_if_sv_unit
+Z29 !s108 1580738333.969000
+Z30 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|
+Z31 !s90 -reportprogress|300|-work|work|-vopt|-sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|
+!i10b 1
+!s85 0
+!i111 0
