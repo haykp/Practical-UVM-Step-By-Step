@@ -27,7 +27,7 @@ class wb_env_cfg extends uvm_object;
 
    `uvm_object_utils_end
  function new(name = null) ;
-	super.new(name);
+	super.new(string'(name));
  endfunction
   
 endclass: wb_env_cfg

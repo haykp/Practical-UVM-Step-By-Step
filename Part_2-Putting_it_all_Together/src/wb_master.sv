@@ -43,7 +43,7 @@ wb_config mstr_drv_cfg;
    
    typedef virtual wb_master_if v_if; 
    v_if drv_if;
-   `uvm_register_cb(wb_master,wb_master_callbacks); 
+   `uvm_register_cb(wb_master,wb_master_callbacks) 
    
    extern function new(string name = "wb_master",
                        uvm_component parent = null); 

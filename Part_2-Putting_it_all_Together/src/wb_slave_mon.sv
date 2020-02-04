@@ -44,7 +44,7 @@ class wb_slave_mon extends uvm_monitor;
 
    wb_config slv_mon_cfg;
    extern function new(string name = "wb_slave_mon",uvm_component parent);
-   `uvm_register_cb(wb_slave_mon,wb_slave_mon_callbacks);
+   `uvm_register_cb(wb_slave_mon,wb_slave_mon_callbacks)
 
    `uvm_component_utils(wb_slave_mon)
 

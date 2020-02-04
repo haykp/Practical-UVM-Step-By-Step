@@ -18,7 +18,7 @@ class wb_transaction extends uvm_sequence_item;
 
  // This is the status of the transaction
    typedef enum {OK, ACK, RTY, ERR, TIMEOUT ,INFLIGHT , UNKNOWN } status_e;
-   status_e status;
+  // status_e status;
 
  	
    wb_config cfg;  // Must be non-NULL to randomize

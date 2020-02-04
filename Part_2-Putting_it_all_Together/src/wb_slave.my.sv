@@ -38,7 +38,7 @@ wb_config wb_slave_cfg;
  
    typedef virtual wb_slave_if v_if; 
    v_if drv_if;
-   `uvm_register_cb(wb_slave,wb_slave_callbacks); 
+   `uvm_register_cb(wb_slave,wb_slave_callbacks)
    
    extern function new(string name = "wb_slave",
                        uvm_component parent = null); 

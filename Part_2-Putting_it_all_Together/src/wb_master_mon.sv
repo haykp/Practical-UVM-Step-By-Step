@@ -5,6 +5,8 @@
 `ifndef WB_MASTER_MON__SV
 `define WB_MASTER_MON__SV
 
+`include "uvm_macros.svh"
+import uvm_pkg::*;
 
 typedef class wb_transaction;
 typedef class wb_master_mon;
@@ -55,7 +57,7 @@ class wb_master_mon extends uvm_monitor;
    wb_config mstr_mon_cfg;
 
    extern function new(string name = "wb_master_mon",uvm_component parent);
-   `uvm_register_cb(wb_master_mon,wb_master_mon_callbacks);
+   `uvm_register_cb(wb_master_mon,wb_master_mon_callbacks)
    `uvm_component_utils_begin(wb_master_mon)
    `uvm_component_utils_end
 

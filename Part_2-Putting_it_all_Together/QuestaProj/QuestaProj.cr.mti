@@ -1,11 +1,16 @@
-D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv {0 {vlog -work work -vopt D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v
+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv {0 {vlog -work work -vopt -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module dut
+** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
 
-Top level modules:
-	dut
+** Error: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv(9): Cannot find `include file "wb_env_test.sv" in directories:
+    D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include, D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env, D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src, C:/questasim64_10.2c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+-- Compiling interface wb_master_if
+-- Compiling interface wb_slave_if
+-- Compiling module top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Error: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv(60): End label 'wb_env_top_mod' does not match module name on line 13.
 
-} {} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v {1 {vlog -work work -vopt D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v
+} {5.0 6.0 11.0 12.0} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v {1 {vlog -work work -vopt D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module dut
 
