@@ -1,16 +1,55 @@
-D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv {0 {vlog -work work -vopt -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv {2 {vlog -work work -vopt -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 ** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
 
-** Error: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv(9): Cannot find `include file "wb_env_test.sv" in directories:
-    D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include, D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env, D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src, C:/questasim64_10.2c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv(161): (vlog-2240) Treating stand-alone use of function 'pre_ack' as an implicit VOID cast.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv(73): (vlog-2227) Constraint block never defined for prototype 'test_constraints1'; use -error for strict LRM compliance.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv(74): (vlog-2227) Constraint block never defined for prototype 'test_constraints2'; use -error for strict LRM compliance.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv(75): (vlog-2227) Constraint block never defined for prototype 'test_constraints3'; use -error for strict LRM compliance.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv(154): (vlog-2240) Treating stand-alone use of function 'pre_ack' as an implicit VOID cast.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv(36): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+
+
+Top level modules:
+	--none--
+
+} {} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv {2 {vlog -work work -vopt -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+-- Compiling interface wb_master_if
+-- Compiling interface wb_slave_if
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv(161): (vlog-2240) Treating stand-alone use of function 'pre_ack' as an implicit VOID cast.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv(73): (vlog-2227) Constraint block never defined for prototype 'test_constraints1'; use -error for strict LRM compliance.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv(74): (vlog-2227) Constraint block never defined for prototype 'test_constraints2'; use -error for strict LRM compliance.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv(75): (vlog-2227) Constraint block never defined for prototype 'test_constraints3'; use -error for strict LRM compliance.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv(154): (vlog-2240) Treating stand-alone use of function 'pre_ack' as an implicit VOID cast.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+
+** Warning: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv(36): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+
 -- Compiling interface wb_master_if
 -- Compiling interface wb_slave_if
 -- Compiling module top
--- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
-** Error: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv(60): End label 'wb_env_top_mod' does not match module name on line 13.
 
-} {5.0 6.0 11.0 12.0} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v {1 {vlog -work work -vopt D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v
+Top level modules:
+	top
+
+} {} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v {1 {vlog -work work -vopt D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut.v
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module dut
 
