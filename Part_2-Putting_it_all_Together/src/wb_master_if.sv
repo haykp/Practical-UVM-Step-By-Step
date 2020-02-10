@@ -5,7 +5,7 @@
 `ifndef WB_MASTER_IF__SV
 `define WB_MASTER_IF__SV
 
-interface wb_master_if (input wire clk,input bit rst);
+interface wb_master_if (input wire clk, input bit rst);
 
    // ToDo: Define default setup & hold times
 
