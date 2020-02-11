@@ -15,12 +15,12 @@ interface wb_slave_if (input bit clk, input bit rst);
    // ToDo: Define synchronous and asynchronous signals as wires
 
    // Common Signals
-  wire CYC_I;
-  wire  [63:0] DAT_I;
-  wire  [63:0] DAT_O;
-  wire RST_I;
-  wire  [15:0] TGD_I;
-  wire [15:0] TGD_O;
+  logic CYC_I;
+  logic  [63:0] DAT_I;
+  logic  [63:0] DAT_O;
+  logic RST_I;
+  logic  [15:0] TGD_I;
+  logic [15:0] TGD_O;
   // Slave Signals
   logic ACK_O	;
   logic [63:0] ADR_I;	

@@ -14,11 +14,11 @@ interface wb_master_if (input wire clk, input bit rst);
 
 
 // Common Signals
-  wire  [63:0] DAT_I;
-  wire  [63:0] DAT_O;
-  wire RST_I;
-  wire  [15:0] TGD_I;
-  wire [15:0] TGD_O;
+  logic  [63:0] DAT_I;
+  logic  [63:0] DAT_O;
+  logic RST_I;
+  logic  [15:0] TGD_I;
+  logic [15:0] TGD_O;
  
 
   // Master signals

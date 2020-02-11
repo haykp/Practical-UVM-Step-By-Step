@@ -20,15 +20,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	--none--
 
-} {} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.v {0 {vlog -work work -vopt D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.v
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
-** Error: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.v(7): Cannot find `include file "wb_master_if.sv" in directories:
-    C:/questasim64_10.2c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src
-** Error: D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.v(8): Cannot find `include file "wb_slave_if.sv" in directories:
-    C:/questasim64_10.2c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src
--- Compiling module dut
-
-} {3.0 4.0 5.0 6.0} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv {2 {vlog -work work -vopt -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
+} {} {}} D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv {2 {vlog -work work -vopt -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 ** Note: (vlog-2286) Using implicit +incdir+C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
 
