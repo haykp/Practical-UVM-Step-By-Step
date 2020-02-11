@@ -3,246 +3,129 @@ K4
 z2
 13
 cModel Technology
-dC:/questasim64_10.2c/examples
+Z0 dC:/questasim64_10.2c/examples
 !s112 0.1
 !i10d 8192
 !i10e 25
 !i10f 100
 vdut
-Z0 DXx6 sv_std 3 std 0 22 `a<MJET1=lN@jzbA7kHm;1
-Z1 V`JN@9S9cnhjKRR_L]QIcM3
-r1
-!s85 0
-31
-I9?XmK74WEmZh>DcSNKljD1
-Z2 !s105 dut2_sv_unit
-S1
-Z3 dD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/QuestaProj
-Z4 w1581425858
-Z5 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv
-Z6 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv
-L0 10
-Z7 OL;L;10.2c;57
-Z8 !s108 1581425863.496000
-Z9 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv|
-Z10 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv|
-Z11 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-Z12 !s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z1 DXx6 sv_std 3 std 0 22 `a<MJET1=lN@jzbA7kHm;1
+Z2 !s110 1581427147
 !i10b 1
-!s100 b:PnlmSHV7eJHcU9J<4JZ2
+Z3 !s100 b:PnlmSHV7eJHcU9J<4JZ2
+Z4 I9?XmK74WEmZh>DcSNKljD1
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+Z6 !s105 dut2_sv_unit
+S1
+Z7 dD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/QuestaProj
+Z8 w1581425858
+Z9 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv
+Z10 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv
+L0 10
+Z11 OL;L;10.2c;57
+r1
+!s85 0
+31
+Z12 !s108 1581427147.737000
+Z13 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/dut2.sv|
 !i111 0
+Z15 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z16 !s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 vtop
-Z13 DXx6 sv_std 3 std 0 22 `a<MJET1=lN@jzbA7kHm;1
-Z14 DXx6 mtiUvm 7 uvm_pkg 0 22 6c<UYR5cbJC8ZT=63Rnh52
-DXx4 work 11 top_sv_unit 0 22 UK<U;8I_GQd?JzQ6?lFQd2
 R1
+Z17 DXx6 mtiUvm 7 uvm_pkg 0 22 6c<UYR5cbJC8ZT=63Rnh52
+Z18 DXx4 work 11 top_sv_unit 0 22 zGM]fJ[hJOm@bMK<JDa=90
+R5
 r1
 31
-ICFhScP_OkN0:8JSXj]bR^3
+Z19 !s100 mYPVeifngNg?465FDDFP@3
+Z20 InG4Na?f3z5IdbDYAHaiCT3
+Z21 !s105 top_sv_unit
 S1
-R3
-w1581342153
-Z15 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
-Z16 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
-L0 13
 R7
-Z17 !s108 1581425862.570000
-Z18 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include/all_interfaces.incl|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_env.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_scoreboard.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/mon_2cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cfg.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent_sequence_library.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_slave_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_master_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_seqr.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include/wb_verif_all_files.incl|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv|
-Z19 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv|
+Z22 w1581426579
+Z23 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
+Z24 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv
+L0 13
 R11
-Z20 !s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z25 !s108 1581427146.812000
+Z26 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists/all_interfaces.incl|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_scoreboard.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/mon_2cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cfg.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent_sequence_library.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_seqr.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists/wb_verif_all_files.incl|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/top.sv|
+R15
+Z28 !s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
 !s85 0
-!s100 XU0dA4=[ek88geRB`o9=B2
-!s105 top_sv_unit
 !i10b 1
 !i111 0
 Xtop_sv_unit
-R13
-R14
-VUK<U;8I_GQd?JzQ6?lFQd2
+R1
+R17
+Z29 VzGM]fJ[hJOm@bMK<JDa=90
 r1
 31
-IUK<U;8I_GQd?JzQ6?lFQd2
+Z30 IzGM]fJ[hJOm@bMK<JDa=90
 S1
-R3
-w1581425759
-R15
-R16
-Z21 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
-Z22 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
-Z23 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
-Z24 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
-Z25 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
-Z26 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
-Z27 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
-Z28 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
-Z29 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
-Z30 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
-Z31 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
-Z32 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
-Z33 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv
-Z34 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include/wb_verif_all_files.incl
-Z35 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv
-Z36 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_seqr.sv
-Z37 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv
-Z38 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master.sv
-Z39 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_master_agent.sv
-Z40 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv
-Z41 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave.sv
-Z42 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_slave_agent.sv
-Z43 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv
-Z44 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent_sequence_library.sv
-Z45 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cfg.sv
-Z46 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cov.sv
-Z47 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/mon_2cov.sv
-Z48 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_scoreboard.sv
-Z49 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_env.sv
-FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include/all_interfaces.incl
-Z50 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv
-Z51 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv
-L13 5
 R7
-R17
-R18
-R19
+R22
+R23
+R24
+Z31 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z32 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z33 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z34 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z35 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z36 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z37 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z38 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z39 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z40 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z41 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z42 FC:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Z43 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv
+Z44 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists/wb_verif_all_files.incl
+Z45 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv
+Z46 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_seqr.sv
+Z47 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv
+Z48 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master.sv
+Z49 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent.sv
+Z50 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv
+Z51 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave.sv
+Z52 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_agent.sv
+Z53 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv
+Z54 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent_sequence_library.sv
+Z55 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cfg.sv
+Z56 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cov.sv
+Z57 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/mon_2cov.sv
+Z58 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_scoreboard.sv
+Z59 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env.sv
+Z60 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists/all_interfaces.incl
+Z61 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv
+Z62 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv
+L13 5
 R11
-R20
+R25
+R26
+R27
+R15
+R28
+Z63 !s100 D:7^6E`2n4gklK94WnIZc2
 !s85 0
-!s100 8MiNnDET=h:zb;me>Ebha0
 !i10b 1
 !i103 1
 !i111 0
 Xwb_config_sv_unit
-R13
-R14
-IQAE`3AJSU_1Ad4h?=Y>]m0
-VQAE`3AJSU_1Ad4h?=Y>]m0
+R1
+R17
+Z64 IQAE`3AJSU_1Ad4h?=Y>]m0
+Z65 VQAE`3AJSU_1Ad4h?=Y>]m0
 S1
-R3
-w1580823565
-8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv
-R43
-R21
-R22
-R23
-R24
-R25
-R26
-R27
-R28
-R29
-R30
+R7
+Z66 w1580823565
+Z67 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv
+R53
 R31
 R32
-L0 2
-R7
-r1
-31
-R11
-!s110 1580823978
-!s100 F<g816Sz@U`VcJMMoe:A;0
-!s90 -reportprogress|300|-work|work|-vopt|-sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|
-!s108 1580823978.759000
-!s107 C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|
-!i10b 1
-!i103 1
-!s85 0
-!i111 0
-vwb_env_top_mod
-R13
-R14
-IXgEmoI0`lGUnBM9K0`PhF3
-R1
-S1
-R3
-w0
-8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv
-FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv
-L2 20
-R7
-r1
-31
-R11
-!s110 1580824328
-!s105 wb_env_top_sv_unit
-!s108 1580824328.271000
-!s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include/all_interfaces.incl|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv|
-!s90 -reportprogress|300|-work|work|-novopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv|
-!s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-!s100 E=XF@`aa@:[6h`Aj1`13e2
-!i10b 1
-!s85 0
-!i111 1
-Ywb_master_if
-R13
-R1
-r1
-31
-IN:^T^ne1]=RSgVOi[@LOa3
-R2
-S1
-R3
-R4
-R50
-R5
-R6
-L0 8
-R7
-R8
-R9
-R10
-R11
-R12
-!s85 0
-!i10b 1
-!s100 JdY7c]kU=j9be=mFe]P5R2
-!i111 0
-Ywb_slave_if
-R13
-R1
-r1
-31
-IBECii[k6iI_[Y6XW`JZG:1
-R2
-S1
-R3
-R4
-R51
-R5
-R6
-L0 8
-R7
-R8
-R9
-R10
-R11
-R12
-!s85 0
-!i10b 1
-!s100 5S8jKJ[zHNPD>>aEQ7noc2
-!i111 0
-Xwb_test_sv_unit
-R13
-R14
-I8hBXMC0<iLIfX31FF4QA>3
-V8hBXMC0<iLIfX31FF4QA>3
-S1
-R3
-w1580825492
-8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv
 R33
-R21
-R22
-R23
-R24
-R25
-R26
-R27
-R28
-R29
-R30
-R31
-R32
 R34
 R35
 R36
@@ -252,25 +135,145 @@ R39
 R40
 R41
 R42
+L0 2
+R11
+r1
+31
+R15
+Z68 !s110 1580823978
+Z69 !s100 F<g816Sz@U`VcJMMoe:A;0
+Z70 !s90 -reportprogress|300|-work|work|-vopt|-sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|
+Z71 !s108 1580823978.759000
+Z72 !s107 C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|
+!i10b 1
+!i103 1
+!s85 0
+!i111 0
+vwb_env_top_mod
+R1
+R17
+Z73 IXgEmoI0`lGUnBM9K0`PhF3
+R5
+S1
+R7
+w0
+Z74 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv
+Z75 FD:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv
+L2 20
+R11
+r1
+31
+R15
+Z76 !s110 1580824328
+Z77 !s105 wb_env_top_sv_unit
+Z78 !s108 1580824328.271000
+Z79 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_if.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include/all_interfaces.incl|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv|
+Z80 !s90 -reportprogress|300|-work|work|-novopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/hdl/wb_env_top.sv|
+Z81 !s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z82 !s100 E=XF@`aa@:[6h`Aj1`13e2
+!i10b 1
+!s85 0
+!i111 1
+Ywb_master_if
+R1
+R2
+!i10b 1
+!s100 JdY7c]kU=j9be=mFe]P5R2
+IN:^T^ne1]=RSgVOi[@LOa3
+R5
+R6
+S1
+R7
+R8
+R61
+R9
+R10
+L0 8
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i111 0
+R15
+R16
+Ywb_slave_if
+R1
+R2
+!i10b 1
+!s100 5S8jKJ[zHNPD>>aEQ7noc2
+IBECii[k6iI_[Y6XW`JZG:1
+R5
+R6
+S1
+R7
+R8
+R62
+R9
+R10
+L0 8
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i111 0
+R15
+R16
+Xwb_test_sv_unit
+R1
+R17
+Z83 IiDk[j;bf3gP@dijfNDNCI1
+Z84 ViDk[j;bf3gP@dijfNDNCI1
+S1
+R7
+Z85 w1581426353
+Z86 8D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv
 R43
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+R42
 R44
 R45
 R46
 R47
 R48
 R49
+R50
+R51
+R52
+R53
+R54
+R55
+R56
+R57
+R58
+R59
 L0 5
-R7
+R11
 r1
 31
-R11
-!s110 1581425863
-!s100 ;ho_VX^0KD20<B1E^:4YV2
-!s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv|
-!s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-!s108 1581425863.142000
-!s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_env.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_scoreboard.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/mon_2cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cfg.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent_sequence_library.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_slave_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/env/wb_master_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_seqr.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include/wb_verif_all_files.incl|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv|
+R15
+R2
 !i10b 1
+Z87 !s100 AcI<>Zj]KSIin3gA1Rmk51
 !i103 1
 !s85 0
+Z88 !s108 1581427147.380000
+Z89 !s107 D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_scoreboard.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/mon_2cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cov.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_env_cfg.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent_sequence_library.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_config.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_slave_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_agent.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_transaction.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_seqr.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src/wb_master_mon.sv|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists/wb_verif_all_files.incl|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_10.2c/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv|
+Z90 !s90 -reportprogress|300|-work|work|-vopt|-sv|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists|+incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src|D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/tests/wb_test.sv|
 !i111 0
+Z91 !s92 -work work -sv +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/include_lists +incdir+D:/Documents/UVM/Book_PracticalUVMStepBYStep_Examples/Practical-UVM-Step-By-Step/Part_2-Putting_it_all_Together/src -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF

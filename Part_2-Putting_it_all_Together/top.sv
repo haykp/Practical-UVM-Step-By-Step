@@ -53,8 +53,8 @@ end
    initial begin
       uvm_config_db #(mst_if)::set(null,"uvm_test_top.env.master_agent","mst_if",top.mast_if); 
       uvm_config_db #(slv_if)::set(null,"uvm_test_top.env.slave_agent","slv_if",top.slave_if);
-      run_test();
-	  //run_test(wb_env_test); 
+      //run_test();
+	  run_test("wb_test"); 
    end
 
 endmodule: top

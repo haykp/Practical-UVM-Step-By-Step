@@ -24,16 +24,16 @@ class slv_base_sequence extends uvm_sequence #(wb_transaction);
   function new(string name = "base_seq");
     super.new(name);
   endfunction:new
-  virtual task pre_body(); uvm_phase phase_=get_starting_phase();
+  // virtual task pre_body(); uvm_phase phase_=get_starting_phase();
 
-    if (get_starting_phase()!= null)
-      phase_.raise_objection(this);
-  endtask:pre_body
-  virtual task post_body(); uvm_phase phase_=get_starting_phase();
+    // if (get_starting_phase()!= null)
+      // phase_.raise_objection(this);
+  // endtask:pre_body
+  // virtual task post_body(); uvm_phase phase_=get_starting_phase();
 
-    if (get_starting_phase()!= null)
-      phase_.drop_objection(this);
-  endtask:post_body
+    // if (get_starting_phase()!= null)
+      // phase_.drop_objection(this);
+  // endtask:post_body
 endclass
 
 class ram_sequence extends slv_base_sequence;
@@ -58,29 +58,29 @@ class ram_sequence extends slv_base_sequence;
 			p_sequencer.send_rsp(this, tr);
 		end
   endtask
- virtual task pre_body(); uvm_phase phase_=get_starting_phase();
+ // virtual task pre_body(); uvm_phase phase_=get_starting_phase();
 
-    if (get_starting_phase()!=null) begin
-       `uvm_info(get_type_name(),
-                 $sformatf("%s pre_body() raising %s objection",
-                           get_sequence_path(),
-                           phase_.get_name()), UVM_MEDIUM);
-       phase_.raise_objection(this);
-    end
-  endtask
+    // if (get_starting_phase()!=null) begin
+       // `uvm_info(get_type_name(),
+                 // $sformatf("%s pre_body() raising %s objection",
+                           // get_sequence_path(),
+                           // phase_.get_name()), UVM_MEDIUM);
+       // phase_.raise_objection(this);
+    // end
+  // endtask
 
   // Drop the objection in the post_body so the objection is removed when
   // the root sequence is complete. 
-  virtual task post_body(); uvm_phase phase_=get_starting_phase();
+  // virtual task post_body(); uvm_phase phase_=get_starting_phase();
 
-    if (get_starting_phase()!=null) begin
-       `uvm_info(get_type_name(),
-                 $sformatf("%s post_body() dropping %s objection",
-                           get_sequence_path(),
-                           phase_.get_name()), UVM_MEDIUM);
-    phase_.drop_objection(this);
-    end
-  endtask
+    // if (get_starting_phase()!=null) begin
+       // `uvm_info(get_type_name(),
+                 // $sformatf("%s post_body() dropping %s objection",
+                           // get_sequence_path(),
+                           // phase_.get_name()), UVM_MEDIUM);
+    // phase_.drop_objection(this);
+    // end
+  // endtask
 
 endclass
 
