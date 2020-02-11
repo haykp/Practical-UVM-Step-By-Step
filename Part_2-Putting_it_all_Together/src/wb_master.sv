@@ -155,7 +155,7 @@ count = 0;
        `uvm_do_callbacks(wb_master,wb_master_callbacks, pre_tx(this, tr))
      // Since we are just beginning the transaction, we dont know what state it's in yet. 
 
-   phase.raise_objection(this,"mast drv starting TXN ");
+  
          tr.status = wb_transaction::UNKNOWN;
 
        case (tr.kind)  
@@ -178,7 +178,7 @@ count = 0;
       endcase
       
       seq_item_port.item_done();
-   phase.drop_objection(this,"done with TXN");
+  
       // `uvm_info("wb_env_DRIVER", tr.sprint(),UVM_HIGH)
       `uvm_do_callbacks(wb_master,wb_master_callbacks, post_tx(this, tr))
       `uvm_info("wb_env_DRIVER", "Completed transaction...",UVM_LOW)

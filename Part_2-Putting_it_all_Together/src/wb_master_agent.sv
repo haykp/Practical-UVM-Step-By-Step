@@ -4,6 +4,7 @@
 
 class wb_master_agent extends uvm_agent;
    protected uvm_active_passive_enum is_active = UVM_ACTIVE;
+   
    wb_master_seqr mast_sqr;
    wb_master mast_drv;
    wb_master_mon mast_mon;
@@ -28,6 +29,7 @@ class wb_master_agent extends uvm_agent;
    virtual function void build_phase(uvm_phase phase);
       super.build_phase(phase);
       mast_mon = wb_master_mon::type_id::create("mast_mon", this);
+	  
       if (is_active == UVM_ACTIVE) begin
          mast_sqr = wb_master_seqr::type_id::create("mast_sqr", this);
          mast_drv = wb_master::type_id::create("mast_drv", this);
@@ -47,7 +49,7 @@ class wb_master_agent extends uvm_agent;
     // Now getting the configuration
       uvm_config_db #(wb_config)::get(null, this.get_full_name(), "mstr_agent_cfg",mstr_agent_cfg);
 	 mast_drv.mstr_drv_cfg = mstr_agent_cfg;
-         mast_sqr.cfg = mstr_agent_cfg;
+     mast_sqr.cfg = mstr_agent_cfg;
 	 mast_mon.mstr_mon_cfg = mstr_agent_cfg;
 
 
