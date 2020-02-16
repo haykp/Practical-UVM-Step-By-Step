@@ -107,6 +107,7 @@ function void wb_conmax_env::connect_phase(uvm_phase phase);
       slave_agent[i].slv_mon.mon_analysis_port.connect(conmax_scbd.slave_export[i]);
    end
 
+//setup sequencers in the virtual sequencer 
    wb_conmax_virt_seqr.seqr0 = master_agent[00].mast_sqr;
    wb_conmax_virt_seqr.seqr1 = master_agent[01].mast_sqr;
    wb_conmax_virt_seqr.seqr2 = master_agent[02].mast_sqr;

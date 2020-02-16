@@ -11,6 +11,8 @@
  * See license.txt for details                  *
  *                                              *
  ************************************************/
+// WHISHBONE protocol master part
+// It implements all bisic operations of whishbone - ready, Write. The RMW and blork Read, Write not implemented
 
 `ifndef WB_MASTER__SV
  `define WB_MASTER__SV
@@ -137,8 +139,8 @@ endclass: wb_master
    task wb_master::run_phase(uvm_phase phase);
       super.configure_phase(phase);
       fork 
-	reset_task();
-	 main_driver();
+		reset_task();
+		main_driver();
       join_none
    endtask: run_phase
 
@@ -149,16 +151,15 @@ endclass: wb_master
 	 wb_transaction tr;
 	 bit drop = 0;
 	 // Set output signals to their idle state
-
-	 this.drv_if.master_cb.DAT_O <= 'b0; 
-         this.drv_if.master_cb.TGD_O <= 'b0;
-         this.drv_if.master_cb.ADR_O <= 'b0;
-         this.drv_if.master_cb.CYC_O <= 'b0;
-         this.drv_if.master_cb.LOCK_O <= 'b0;
-         this.drv_if.master_cb.SEL_O <= 'b0;
-         this.drv_if.master_cb.STB_O <= 'b0;
-         this.drv_if.master_cb.TGA_O <= 'b0;
-         this.drv_if.master_cb.TGC_O <= 'b0;
+	this.drv_if.master_cb.DAT_O <= 'b0; 
+    this.drv_if.master_cb.TGD_O <= 'b0;
+    this.drv_if.master_cb.ADR_O <= 'b0;
+    this.drv_if.master_cb.CYC_O <= 'b0;
+    this.drv_if.master_cb.LOCK_O <= 'b0;
+    this.drv_if.master_cb.SEL_O <= 'b0;
+    this.drv_if.master_cb.STB_O <= 'b0;
+    this.drv_if.master_cb.TGA_O <= 'b0;
+    this.drv_if.master_cb.TGC_O <= 'b0;
 
 	 seq_item_port.get_next_item(tr);
 	 `uvm_info("wb_env_DRIVER", "Starting transaction...",UVM_LOW)

@@ -39,9 +39,9 @@ parallel_sequence seq1;
 
    virtual task main_phase(uvm_phase phase);
 	phase.raise_objection(this,"Test Main Objection");
-	seq1 = parallel_sequence::type_id::create("sequence_1",this);
-	seq1.start(env.master_agent[00].mast_sqr,null);
-	seq1.wait_for_sequence_state(UVM_FINISHED);
+		seq1 = parallel_sequence::type_id::create("sequence_1",this);
+		seq1.start(env.master_agent[00].mast_sqr,null);
+		seq1.wait_for_sequence_state(UVM_FINISHED);
 	phase.drop_objection(this,"Dropping Test Main Objection");
    endtask
 

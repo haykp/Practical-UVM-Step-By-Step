@@ -43,34 +43,34 @@ class wb_conmax_base_test extends uvm_test;
       // create the configurations
       // Master config
       for(int i = 0; i < 8; i++) begin
-	 master_configs[i] = wb_config::type_id::create($psprintf("master_configuration[%02d]",i));
-	 master_configs[i].randomize with {min_addr == 0; max_addr == slave_adr_max; max_n_wss == 5; };
+		master_configs[i] = wb_config::type_id::create($psprintf("master_configuration[%02d]",i));
+		master_configs[i].randomize with {min_addr == 0; max_addr == slave_adr_max; max_n_wss == 5; };
 	 //master_configs[i].print();
       end
 
       // create the configurations
       // Slave config
       for(int i = 0; i < 16; i++) begin
-	 slave_adr_min = 0;
-	 slave_configs[i] = wb_config::type_id::create($psprintf("slave_configuration[%02d]",i));
-	 slave_configs[i].randomize with {min_addr == slave_adr_min; max_addr == slave_adr_max; max_n_wss == 2; };
-	 slave_adr_min =slave_adr_max + 1;
-	 slave_adr_max = slave_adr_max + 1 + 32'h00fffffe;
-	 //slave_configs[i].print();
+		slave_adr_min = 0;
+		slave_configs[i] = wb_config::type_id::create($psprintf("slave_configuration[%02d]",i));
+		slave_configs[i].randomize with {min_addr == slave_adr_min; max_addr == slave_adr_max; max_n_wss == 2; };
+		slave_adr_min =slave_adr_min + 1;
+		slave_adr_max = slave_adr_max + 1 + 32'h00fffffe;
+		//slave_configs[i].print();
       end
 
       
 
       // Set the default sequencer in all the master agents
       for(int i = 0; i < 8; i++) begin
-	 uvm_config_db #(uvm_object_wrapper)::set(this, $sformatf("env.master_agent[%02d].mast_sqr.main_phase",i), "default_sequence", null);
-	 uvm_config_db #(wb_config)::set(null,$sformatf("uvm_test_top.env.master_agent[%02d]",i),"mstr_agent_cfg",master_configs[i] );
+		uvm_config_db #(uvm_object_wrapper)::set(this, $sformatf("env.master_agent[%02d].mast_sqr.main_phase",i), "default_sequence", null);
+		uvm_config_db #(wb_config)::set(null,$sformatf("uvm_test_top.env.master_agent[%02d]",i),"mstr_agent_cfg",master_configs[i] );
       end
       
 
       // Slave configuration
       for(int i = 0; i < 16; i++) begin
-	 uvm_config_db #(wb_config)::set(null,$sformatf("uvm_test_top.env.slave_agent[%02d]",i),"slv_agent_cfg",slave_configs[i] );
+		uvm_config_db #(wb_config)::set(null,$sformatf("uvm_test_top.env.slave_agent[%02d]",i),"slv_agent_cfg",slave_configs[i] );
       end
 
       env = wb_conmax_env::type_id::create("env", this);

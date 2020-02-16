@@ -14,18 +14,24 @@
 
 //
 // Template for Top module
+// it contains 8 masters and 16 slaves
 //
 
 `ifndef WB_ENV_TB_TOP
  `define WB_ENV_TB_TOP
  `include "wb_conmax_env_defines.svh"
  `timescale 1ns/1ps
+ 
 module wb_conmax_tb_top();
 
    import uvm_pkg::*;
 
    logic clk;
    logic rst;
+   
+   // interfaces
+   typedef virtual wb_master_if mst_if ;
+   typedef virtual wb_slave_if slv_if ;
 
    // Clock Generation
    parameter sim_cycle = 10;
@@ -70,8 +76,8 @@ module wb_conmax_tb_top();
 			      slave_if8,slave_if1,slave_if2,slave_if11,
 			      slave_if12,slave_if13,slave_if14,slave_if15,clk,rst);
 
-   wb_conmax_env_tb_mod test(); 
-   
+	
+     
    //Driver reset depending on rst_delay
    initial
      begin
@@ -83,6 +89,38 @@ module wb_conmax_tb_top();
         rst = 1'b0;
         @(clk);
      end
+	 
+	 // config db setup and run test
+	  initial begin
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[00]","mst_if",wb_conmax_tb_top.mast_if0); 
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[01]","mst_if",wb_conmax_tb_top.mast_if1); 
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[02]","mst_if",wb_conmax_tb_top.mast_if2); 
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[03]","mst_if",wb_conmax_tb_top.mast_if3); 
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[04]","mst_if",wb_conmax_tb_top.mast_if4); 
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[05]","mst_if",wb_conmax_tb_top.mast_if5); 
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[06]","mst_if",wb_conmax_tb_top.mast_if6); 
+      uvm_config_db #(mst_if)::set(null,"uvm_test_top.master_agent[07]","mst_if",wb_conmax_tb_top.mast_if7); 
+
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[00]","slv_if",wb_conmax_tb_top.slave_if0); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[01]","slv_if",wb_conmax_tb_top.slave_if1); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[02]","slv_if",wb_conmax_tb_top.slave_if2); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[03]","slv_if",wb_conmax_tb_top.slave_if3); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[04]","slv_if",wb_conmax_tb_top.slave_if4); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[05]","slv_if",wb_conmax_tb_top.slave_if5); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[06]","slv_if",wb_conmax_tb_top.slave_if6); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[07]","slv_if",wb_conmax_tb_top.slave_if7); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[08]","slv_if",wb_conmax_tb_top.slave_if8); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[09]","slv_if",wb_conmax_tb_top.slave_if9); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[10]","slv_if",wb_conmax_tb_top.slave_if10); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[11]","slv_if",wb_conmax_tb_top.slave_if11); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[12]","slv_if",wb_conmax_tb_top.slave_if12); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[13]","slv_if",wb_conmax_tb_top.slave_if13); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[14]","slv_if",wb_conmax_tb_top.slave_if14); 
+      uvm_config_db #(slv_if)::set(null,"uvm_test_top.slave_agent[15]","slv_if",wb_conmax_tb_top.slave_if15); 
+
+      //run_test();
+	  run_test("wb_conmax_base_test");
+   end
 
    // Shorts for signals  not supported by the conmax that are present in the interface
 

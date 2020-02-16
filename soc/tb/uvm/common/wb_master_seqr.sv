@@ -17,13 +17,12 @@ typedef class wb_transaction;
 class wb_master_seqr extends uvm_sequencer # (wb_transaction);
 
    wb_config cfg;
-   int my_seq_lenght;
+   int my_seq_length;
 
    `uvm_component_utils_begin(wb_master_seqr)
-      `uvm_field_int(my_seq_lenght,UVM_ALL_ON);
+      `uvm_field_int(my_seq_length,UVM_ALL_ON);
    `uvm_component_utils_end
-   function new (string name,
-                 uvm_component parent);
+   function new (string name,uvm_component parent);
       super.new(name,parent);
    endfunction:new 
 endclass:wb_master_seqr

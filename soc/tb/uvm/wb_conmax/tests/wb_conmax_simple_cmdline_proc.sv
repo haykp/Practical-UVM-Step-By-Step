@@ -51,30 +51,29 @@ class wb_conmax_simple_cmdline_proc extends uvm_test;
       // create the configurations
       // Master config
       for(int i = 0; i < 8; i++) begin
-	 master_configs[i] = wb_config::type_id::create($sformatf("master_configuration[%02d]",i));
-	 master_configs[i].randomize with {min_addr == 0; max_addr == slave_adr_max; max_n_wss == 5; };
-	 master_configs[i].print();
+		master_configs[i] = wb_config::type_id::create($sformatf("master_configuration[%02d]",i));
+		master_configs[i].randomize with {min_addr == 0; max_addr == slave_adr_max; max_n_wss == 5; };
+		master_configs[i].print();
       end
 
       // create the configurations
       // Slave config
       for(int i = 0; i < 16; i++) begin
-	 slave_adr_min = 0;
-
-	 slave_configs[i] = wb_config::type_id::create($sformatf("slave_configuration[%02d]",i));
-	 slave_configs[i].randomize with {min_addr == slave_adr_min; max_addr == slave_adr_max; max_n_wss == 2; };
-	 slave_adr_min =slave_adr_max + 1;
-	 slave_adr_max = slave_adr_max + 1 + 32'h00fffffe;
-	 slave_configs[i].print();
+		slave_adr_min = 0;
+	
+		slave_configs[i] = wb_config::type_id::create($sformatf("slave_configuration[%02d]",i));
+		slave_configs[i].randomize with {min_addr == slave_adr_min; max_addr == slave_adr_max; max_n_wss == 2; };
+		slave_adr_min =slave_adr_max + 1;
+		slave_adr_max = slave_adr_max + 1 + 32'h00fffffe;
+		slave_configs[i].print();
 
       end
 
       
-
       // Set the default sequencer in all the master agents
       for(int i = 0; i < 8; i++) begin
-	 uvm_config_db #(uvm_object_wrapper)::set(this, $sformatf("env.master_agent[%02d].mast_sqr.main_phase",i), "default_sequence", null);
-	 uvm_config_db #(wb_config)::set(null,$sformatf("uvm_test_top.env.master_agent[%02d]",i),"mstr_agent_cfg",master_configs[i] );
+		uvm_config_db #(uvm_object_wrapper)::set(this, $sformatf("env.master_agent[%02d].mast_sqr.main_phase",i), "default_sequence", null);
+		uvm_config_db #(wb_config)::set(null,$sformatf("uvm_test_top.env.master_agent[%02d]",i),"mstr_agent_cfg",master_configs[i] );
       end
       
 
@@ -88,13 +87,13 @@ class wb_conmax_simple_cmdline_proc extends uvm_test;
    endfunction
 
 
-wb_conmax_virtual_sequence virt_seq1;
+	wb_conmax_virtual_sequence virt_seq1;
    	virtual task main_phase(uvm_phase phase);
-	phase.raise_objection(this,"Test Main Objection");
-	virt_seq1 = wb_conmax_virtual_sequence::type_id::create("wb_conmax_virtual_sequence",this);
-	virt_seq1.start(env.wb_conmax_virt_seqr,null);
-	virt_seq1.wait_for_sequence_state(UVM_FINISHED);
-	phase.drop_objection(this,"Dropping Test Main Objection");
+		phase.raise_objection(this,"Test Main Objection");
+		virt_seq1 = wb_conmax_virtual_sequence::type_id::create("wb_conmax_virtual_sequence",this);
+		virt_seq1.start(env.wb_conmax_virt_seqr,null);
+		virt_seq1.wait_for_sequence_state(UVM_FINISHED);
+		phase.drop_objection(this,"Dropping Test Main Objection");
    endtask
 
 endclass : wb_conmax_simple_cmdline_proc

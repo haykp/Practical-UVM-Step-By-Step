@@ -20,6 +20,7 @@ class wb_master_agent extends uvm_agent;
    wb_master_seqr mast_sqr;
    wb_master mast_drv;
    wb_master_mon mast_mon;
+   
    typedef virtual wb_master_if mvif;
    mvif mast_agt_if; 
    wb_config mstr_agent_cfg;
@@ -66,7 +67,7 @@ class wb_master_agent extends uvm_agent;
    virtual function void connect_phase(uvm_phase phase);
       super.connect_phase(phase);
       if (is_active == UVM_ACTIVE) begin
-   	 mast_drv.seq_item_port.connect(mast_sqr.seq_item_export);
+			mast_drv.seq_item_port.connect(mast_sqr.seq_item_export);
       end
    endfunction
 

@@ -11,6 +11,8 @@
  * See license.txt for details                  *
  *                                              *
  ************************************************/
+//wb monitor
+// track the interface, collects all in the transaction and writes in the mon_analysis_port 
 
 `ifndef WB_MASTER_MON__SV
  `define WB_MASTER_MON__SV
@@ -92,7 +94,7 @@ endclass: wb_master_mon
    task wb_master_mon::run_phase(uvm_phase phase);
       phase.raise_objection(this,"");
       fork
-	 master_monitor_task();
+			master_monitor_task();
       join_none
       phase.drop_objection(this);
 
@@ -118,8 +120,8 @@ endclass: wb_master_mon
               this.mon_if.TGC_O);
 	 end while (this.mon_if.CYC_O !== 1'b1 ||
                     this.mon_if.STB_O !== 1'b1);
-	 tr= wb_transaction::type_id::create("tr", this);
-	 tr.address = this.mon_if.ADR_O;
+		tr= wb_transaction::type_id::create("tr", this);
+		tr.address = this.mon_if.ADR_O;
 	 // Are we supposed to respond to this cycle?
 	 if(this.mstr_mon_cfg.min_addr <= tr.address  && tr.address <=this.mstr_mon_cfg.max_addr )
 
@@ -130,17 +132,17 @@ endclass: wb_master_mon
 
 	      tr.tga = this.mon_if.TGA_O;
 	      if(this.mon_if.WE_O) begin
-		 tr.kind = wb_transaction::WRITE;
-		 tr.data  = this.mon_if.DAT_I;
-	         tr.tgd  = this.mon_if.TGD_O;
-		 tr.status = wb_transaction::ACK;
-              end
+			tr.kind = wb_transaction::WRITE;
+			tr.data  = this.mon_if.DAT_I;
+	        tr.tgd  = this.mon_if.TGD_O;
+			tr.status = wb_transaction::ACK;
+          end
 	      else begin
-		 tr.kind = wb_transaction::READ ;
-		 tr.data  = this.mon_if.DAT_O;
-	         tr.tgd  = this.mon_if.TGD_O;
+			tr.kind = wb_transaction::READ ;
+			tr.data  = this.mon_if.DAT_O;
+			tr.tgd  = this.mon_if.TGD_O;
 
-		 tr.status = wb_transaction::ACK;
+			tr.status = wb_transaction::ACK;
       	      end
       	      tr.sel = this.mon_if.SEL_O;
       	      tr.tgc  =this.mon_if.TGC_O;
