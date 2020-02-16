@@ -60,7 +60,8 @@ class wb_conmax_instance_callback_test extends wb_conmax_base_test;
 
    endfunction
 
-wb_conmax_virtual_sequence virt_seq1;
+	wb_conmax_virtual_sequence virt_seq1;
+	
    virtual task main_phase(uvm_phase phase);
 	phase.raise_objection(this,"Test Main Objection");
 	virt_seq1 = wb_conmax_virtual_sequence::type_id::create("wb_conmax_virtual_sequence",this);
